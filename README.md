@@ -5,7 +5,7 @@ For assignment 4, you will compile all graphics/images and code the remaining pa
 ## HTML Requirements:
 
 - Your site must be designed according to the wire-frame outlined in Assignment 2. The wire-frame in Assignment 2 should have a layout that resembles the structure and alignment of elements within site.
-- Your site must incorporate HTML5 semantic elements along with <div> elements that contain id and class attributes. At a minimum, your site must contain a <header>,<nav>,<footer> and <section> tag within the container or body tag.
+- Your site must incorporate HTML5 semantic elements along with ```<div>``` elements that contain id and class attributes. At a minimum, your site must contain a ```<header>```,```<nav>```,```<footer>``` and ```<section>``` tag within the container or body tag.
 - Your site must contain meta tags discussed in class along with content for each tag.
 - Lay-out is symmetrical and aesthetically pleasing (End-users of your site must find it easy to look at your site without distraction or frustration)
 - Your site must take in consideration the following 3 navigation questions:
@@ -46,4 +46,4 @@ Two points will be added to your overall score if you can effectively implement 
 **Please notify me of extra credit attempt via the comment section of assignment.**
 
 ## Submission
-Your site will need to be upload in 2 ways. 1) You will need to submit a zipped/compressed folder title "assignment4" to Canvas by the due and and time listed. 2) You will also need to submit your assignment folder to the issued GitHub repository for assignment 4. Video instructions [here](https://instructorc.github.io/site/slides/presentation/video/github_upload.mp4)
+Your project folder will need to be submitted to the assigned GitHub repository provided to you by the instructor. In Sakai, you will need to submit the link to your repository by the due date and time listed in the write-up. Make sure you receive confirmation from Sakai that your assignment has been submitted. Submission video instructions [here](https://instructorc.github.io/site/slides/presentation/video/github_upload.mp4) 
