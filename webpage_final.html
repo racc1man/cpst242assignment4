@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<!--Rocio Chavez-->
+<html lang="en">
+    <head>
+        <title>Ily's Boutique</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Ily's Homepage with fashion styles and prices">
+        <meta name="keywords" content="woman's clothing, dresses, skirts, blouses, and pants">
+        <meta name="author" content="Rocio Chavez">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+          <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"rel="stylesheet">
+
+     <!--Internal CSS-->
+   
+  <style>
+   
+body{ 
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    }
+ 
+header img{ 
+    display: block;
+    width: 30%;
+    margin: auto;     
+}
+   
+header nav{
+    font-display: left;
+    font-family: script handwritten;
+    font-size: 40px;
+    font-weight: bold;;
+}
+
+/* mouse over link */
+a:hover {
+  color: #7e5395;
+}
+
+#container{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 105px, auto auto auto 15%;
+        grid-template-areas: " head head head head head"
+                             " main main main main main"
+                             "foot foot foot foot foot";
+                                                
+        width: 100vw; 
+        height: 100vh;
+       }
+
+       #container aside{
+            flex-grow: 1;
+            flex-shrink: 0;
+            flex-basis: 325px; 
+            height: 350px;
+            padding: 10px;
+            margin-top: 4%; 
+            margin-bottom: 4%; 
+            margin-right: 2%; 
+            margin-left: 2%;
+            background-color: #ffffffcf;
+            border-radius: 10px;
+       }
+      
+       header{
+            grid-area: head;
+       }   
+
+      #flexcontainer{
+            display: flex;
+            grid-area: main;
+            flex-wrap: wrap;
+            width: 100%;
+            background-image: url(/img/collection-sketches.jpg);
+            background-color:pink;
+            background-position: center center;
+            background-size: cover;
+       }     
+
+       footer{
+            grid-area: foot;
+            padding-top: 40px;
+        }
+
+       #copyright{
+            width: 275px;
+            margin: auto;
+       }
+
+       #contact us{ 
+            font-display: left;
+            width: 275px;
+            font-size: 60px;
+            font-family: script handwritten;
+            font-weight: bold;
+       }
+           
+/* mouse over link */
+a:hover {
+  color: #7e5395;
+}
+
+       #about us{
+            font-display: left;
+            width: 275px;
+            font-size: 60px;
+            font-family: script handwritten;
+            font-weight: bold;
+       }
+      
+/* mouse over link */
+a:hover {
+  color: #7e5395;
+}
+
+        #live chat{
+            font-display: right;
+            width: 275px;
+            font-size: 60px;
+            font-family: script handwritten;
+            font-weight: bold;
+        }           
+        
+/* mouse over link */
+a:hover {
+  color: #7e5395;
+}
+    
+    /* smaller than 1024 pixels */
+@media screen and (max-width: 1024px) {
+	#headstruct{
+		background-color: #cd0000;
+    }
+}
+/* smaller than 768 pixels */
+@media screen and (max-width: 768px) {
+	#headstruct{
+    		background-color: #eeff22;
+	}
+}
+
+/* smaller than 480 pixels */
+@media screen and (max-width: 480px) {
+	#headstruct{
+		background-color: #ffee00;
+	}
+}
+    
+    </style>
+       
+    </head>
+    <body>
+       
+        <div id="container"> <!--grid container-->
+            <!--grid items-->
+
+            <header>
+                <img src="img/Ily's logo.jpg" alt="name logo">
+
+                 
+                    <li><a href="#home">Home</a></li>
+                    <i class="fas fa-bars"></i>
+                 <i class="fas fa-bars" style="font-size:36px;"></i>
+                </ul>
+
+                 <!--External CSS File-->
+         
+            </header>
+            <main id="flexcontainer">
+                
+                <aside>
+                <h2><img src="img/blouseandpants.webp" alt="blouse and pants"></h2> 
+                </aside>
+                    <aside>
+                    <h2><img src="img/cape and dress.webp" alt="cape and dress"></h2>
+                </aside>
+                <aside>
+                    <h2><img src="img/dress blackand white.webp" alt="black and white dress"></h2>
+                </aside>
+                <aside>
+                    <h2><img src="img/flarepantandsweater.webp" alt="flare pants with a sweater"></h2>
+                </aside>
+                <aside>
+                    <h2><img src="img/jacket and longshorts.webp" alt="jacket with long shorts"></h2>
+                </aside>
+                <aside>
+                    <h2><img src="img/jumper shorts.webp" alt="romper"></h2>
+                </aside>
+                <aside>
+                    <h2><img src="img/longcoat.webp" alt="long coat"></h2>
+                </aside>
+                <aside >
+                    <h2><img src="img/longjacket and skirt.webp" alt="long jacket and skirt"></h2>
+                </aside>   
+                <aside>
+                    <h2><img src="pullover and longskirt.webp" alt="pullover sweater and long skirt"></h2>
+                </aside>
+                <aside>
+                    <h2><img src="pullover and shorts.webp" alt="pullover sweater and shorts"></h2>
+                </aside>
+                <aside>
+                    <h2><img src="pullover and skirt.webp" alt="pullover sweater and skirt"></h2>
+                </aside>
+                <aside>
+                    <h2><img src="skirtandjacket.webp" alt="skirt and jacket"></h2>
+                </aside>
+            </main>
+            <footer>
+                <div id="Copyright">&#169;  2023 Ilyanie's Boutique</div>
+                <ul>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#live chat">live chat</a></li>
+                  </ul>
+            </footer>
+        </div>
+    </body>
+</html>
+
